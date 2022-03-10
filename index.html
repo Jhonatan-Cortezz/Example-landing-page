@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile-style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <img src="img/menu-icon.svg" alt="Boton para desplegar el menu" class="hamburger">
+    <nav class="menu-navegacion">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicio">Servicio</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#expertos">Expertos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="contenedor contenedor-head" id="inicio">
+      <h1 class="title">Convertimos tus sueños en realidad</h1>
+      <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="services contenedor" id="servicio">
+      <h2 class="subtitulo">Nuestro servicio</h2>
+      <div class="contenedor-servicio">
+        <img src="img/Checklist_Isometric.svg" alt="imagen de la seccino servicios que contiene un check list">
+        <div class="checklist-servicio">
+          <div class=" service">
+            <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat deleniti velit quod cupiditate natus laborum itaque placeat repellat fuga repudiandae?</p>
+          </div>
+
+          <div class=" service">
+            <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat deleniti velit quod cupiditate natus laborum itaque placeat repellat fuga repudiandae?</p>
+          </div>
+
+          <div class=" service">
+            <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat deleniti velit quod cupiditate natus laborum itaque placeat repellat fuga repudiandae?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="portafolio">
+      <div class="contenedor">
+        <h2 class="subtitulo">Galeria</h2>
+        <div class="contenedor-galeria">
+          <img src="img/uno.jpg" alt="pimera imagen de la galeria" class="img-galeria">
+          <img src="img/dos.jpg" alt="Segunda imagen de la galeria" class="img-galeria">
+          <img src="img/tres.jpg" alt="Tercera imagen de la galeria" class="img-galeria">
+          <img src="img/cuatro.jpg" alt="Cuarta imagen de la galeria" class="img-galeria">
+          <img src="img/cinco.jpg" alt="Quinta imagen de la galeria" class="img-galeria">
+          <img src="img/seis.jpg" alt="Sexta imagen de la galeria" class="img-galeria">
+        </div>
+      </div>
+    </section>
+
+    <section class="imagen-light">
+      <img src="img/close-icon.svg" alt="Imagen para cerrar seccion, contienen una x" class="close">
+      <img src="img/woman-dev.jpg" alt="agregar imagen" class="agregar-imagen">
+    </section>
+
+    <section class="contenedor" id="expertos">
+      <h2 class="subtitulo">Expertos en:</h2>
+      <section class="experts">
+
+        <div class="cont-experts">
+          <img src="img/pie-chart.svg" alt="Imagen que contiene un grafico de pastel">
+          <h3 class="n-expert">Analytics</h3>
+        </div>
+
+        <div class="cont-experts">
+          <img src="img/search-engine.svg" alt="Imagen que contiene un grafico de pastel">
+          <h3 class="n-expert">SEO</h3>
+        </div>
+
+        <div class="cont-experts">
+          <img src="img/security.svg" alt="Imagen que contiene un grafico de pastel">
+          <h3 class="n-expert">Security</h3>
+        </div>
+
+      </section>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="contenedor footer-content">
+      <div class="contact-us">
+        <h2 class="brand">JC Design</h2>
+        <p>Somos expertos en la creacion de tus sueños</p>
+      </div>
+      <div class="social-media">
+        <a href="./" class="social-media-icon">
+          <i class='bx bxl-facebook-circle'></i>
+        </a>
+        <a href="./" class="social-media-icon">
+          <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="./" class="social-media-icon">
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </div>
+    </div>
+    <div class="line"></div>
+  </footer>
+  
+  <script src="js/ligth-box.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

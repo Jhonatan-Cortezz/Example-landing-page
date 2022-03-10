@@ -1,0 +1,74 @@
+@media screen and (max-width:800px) {
+  .menu-navegacion{
+    width: 50vw;
+  }
+  .titulo{
+    font-size: 40px;
+  }
+  .contenedor-servicio img{
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .checklist-servicio{
+    width: 80%;
+  }
+  .service{
+    margin-bottom: 30px;
+  }
+  .agregar-imagen{
+    width: 80%;
+    height: 32vh;
+  }
+  .img-galeria{
+    width: 45%;
+    height: 40vh;
+  }
+  .footer-content{
+    justify-content: center;
+  }
+  .cont-experts{
+    width: 80%;
+  }
+  .social-media{
+    width: 80%;
+    justify-content: space-evenly;
+  }
+  .social-media i{
+    margin-left: 0;
+  }
+  .contact-us{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .header{
+    height: 65vh;
+    background-position: center top;
+  }
+}
+
+@media screen and (max-width:500px){
+  .menu-navegacion{
+    width: 65vw;
+
+  }
+  .agregar-imagen{
+    width: 95%;
+  }
+  .hamburger{
+    top: 20px;
+    right: 20px;
+  }
+  .title, .subtitulo{
+    font-size: 30px;
+  }
+  .img-galeria{
+    width: 95%;
+  }
+  .social-media{
+    width: 100%;
+  }
+  .contact-us{
+    width: 90%;
+  }
+}
