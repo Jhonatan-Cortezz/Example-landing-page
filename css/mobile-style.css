@@ -42,8 +42,9 @@
     margin-bottom: 40px;
   }
   .header{
-    height: 65vh;
-    background-position: center top;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
   }
 }
 
